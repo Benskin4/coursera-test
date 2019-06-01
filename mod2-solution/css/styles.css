@@ -9,14 +9,14 @@ h1 {
 
 
 h2 {
-	float: right;
-	width: 100px;
+  float: right;
+  width: 100px;
   top: 0px;
   right: 0px;
   margin: -2px;
   border: 2px solid black;
   text-align: center;
-	font-weight: bold;
+  font-weight: bold;
 }
 
 
@@ -28,8 +28,8 @@ h2 {
 
 
 .description {
-	clear: right;
-	padding: 10px;
+  clear: right;
+  padding: 10px;
 }
 
 .row {
@@ -37,20 +37,20 @@ h2 {
   }
 
 #chicken_id {
-	background-color: DarkSalmon;
+  background-color: DarkSalmon;
 }
 
 #beef_id {
-	background-color: red;
+  background-color: red;
   color: white;
 }
 
 #sushi_id {
-	background-color: yellow;
+  background-color: yellow;
 }
 
 .col-lg, .col-md, .col-dm-full, .col-lg {
-	 float: left;
+   float: left;
    padding: 15px;
 }
 
