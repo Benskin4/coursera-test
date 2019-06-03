@@ -7,15 +7,15 @@
     <title>Assignment Solution for Module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
   </head>
 <body>
 	
 	<header>
     <nav class="navbar navbar-default header_style">
 	    <div class="container">
-        <div class="navbar-style">
-        	
-        	<h1 class="TopHeader">Food, LLC</h1>
+        <div class="navbar-header navbar-style">
+          <h1 class="TopHeader">Food, LLC</h1>
         	
         	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -27,21 +27,14 @@
         </div>
         
         <div id="collapsable-nav" class="collapse navbar-collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-center dropdown-style visible-xs ">
-            <li>
-              <a href="#">
-                <hr class="col-xs-12"><br class="hidden-xs">Chicken<hr class="col-xs-12"></a>
-            </li>
-            <li>
-              <a href="#">
-                <br class="hidden-xs visible-xs">Beef<hr class="col-xs-12"></a>
-            </li>
-            <li>
-              <a href="#">
-                <br class="hidden-xs visible-xs">Sushi</a>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+
+            <li><a href="#Chicken">Chicken</a></li>
+            <li><a href="#Beef">Beef</a></li>
+            <li><a href="#Sushi">Sushi</a></li>
+         
+           </ul>
+        </div>
         
       </div>
     </nav>
@@ -51,17 +44,17 @@
 
     <div class="container">
     	
-    	<div class="col-md-12 col-sm-12 col-xs-12 content_style add_room">
+    	<div id="Chicken" class="col-md-12 col-sm-12 col-xs-12 content_style add_room">
     		<h2 class="text-center">Chicken</h2>
         <div>A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs. They are usually kept by humans as livestock.</div>
       </div>
       
-      <div class="col-md-12 col-sm-12 col-xs-12 content_style add_room">
+      <div id="Beef" class="col-md-12 col-sm-12 col-xs-12 content_style add_room">
       	<h2 class="text-center">Beef</h2>
         <div>Beef is a source of high-quality protein and nutrients. Beef skeletal muscle meat can be used as is by merely cutting into certain parts roasts, short ribs or steak.</div>
       </div>
       
-      <div class="col-md-12 col-sm-12 col-xs-12 content_style add_room">
+      <div id="Sushi" class="col-md-12 col-sm-12 col-xs-12 content_style add_room">
       	<h2 class="text-center">Sushi</h2>
         <div>Sushi is a popular Japanese dish made from seasoned rice with fish, egg, or vegetables. A sushi roll is shaped inside a thin sheet of seaweed. Now don't you want it?</div>
       </div>
