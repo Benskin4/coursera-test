@@ -16,7 +16,7 @@
 	border-radius: 0;
 }
 
-.navbar-style button.navbar-toggle {
+.navbar-header button.navbar-toggle {
   clear: both;
   float: right;
   margin-top: -30px;
@@ -46,17 +46,16 @@ hr {
   border-color : transparent;
 }
 
-.navbar-collapse {
-	float: center;
-	clear: both;
-	width: 100%;
-	margin: 0px !important;
-	padding: 0px;
 
-}
 
 .container {
 	padding: 0px;
 }
 
+#nav-list a {
+	color: black;
+	text-align: center;
+  background-color: white;
+  border: solid black 2px;
+}
 
